@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>..\</BaseOutputPath>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="UI\MainForm.cs" />
+    <Compile Include="UI\MainForm.Designer.cs" />
+    <Compile Include="UI\UIAttribute.cs" />
+    <Compile Include="UI\UIBaseFacotry.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="UI\MainForm.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Process\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Krypton.Docking" Version="70.22.11.312" />
+  </ItemGroup>
+
+</Project>
