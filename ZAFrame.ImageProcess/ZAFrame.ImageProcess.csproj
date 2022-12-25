@@ -10,7 +10,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="AFBaseNode.cs" />
     <Compile Include="ImageProcessHelper.cs" />
+    <Compile Include="LogicalNode.cs" />
     <Compile Include="MeasureElement.cs" />
     <Compile Include="MeasureFactory.cs" />
     <Compile Include="MeasureNode.cs" />
