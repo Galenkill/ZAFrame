@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace ZAFrame.ImageProcess
 {
-    internal class LogicalNode:AFBaseNode
+    internal abstract class LogicalNode:AFBaseNode
     {
+        public LogicalNode LogicalStartNode { get; set; } = null;
+        public LogicalNode LogicalEndNode { get; set; } = null;
 
     }
 }

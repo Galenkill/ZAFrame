@@ -64,7 +64,7 @@ namespace ZAFrame.ImageProcess
     {
         public ZAAngle StartAngle { get; set; } = ZAAngle.Zero;
         public ZAAngle EndAngle { get; set; }= ZAAngle.Zero;
-        public ImageProcess_Arc
+        //public ImageProcess_Arc
     }
     public class ImageProcess_Circle : ImageProcessElementBase
     {
